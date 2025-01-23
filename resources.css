@@ -1,0 +1,77 @@
+.resources-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.resources-section h1 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 3rem;
+}
+
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.resource-category {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.resource-category h2 {
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+}
+
+.resource-list {
+    list-style: none;
+}
+.resource-list li {
+    margin-bottom: 1rem;
+}
+
+.resource-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.resource-link:hover {
+    text-decoration: underline;
+}
+
+.emergency {
+    color: var(--accent-color);
+    font-weight: 500;
+}
+
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.app-card {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: var(--light-gray);
+    border-radius: 8px;
+}
+
+.app-card img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 1rem;
+}
+
+.app-card h3 {
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+}
