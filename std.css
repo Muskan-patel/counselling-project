@@ -97,14 +97,15 @@ body {
     border-radius: 5px;
 }
 .btn2 {
-    background-color: #a202ff;
-    color: #fff;
+   font-size :18px;
+   word-spacing:3px;
+   text-transform:capitalize;
+    font-weight:bold;
+    border: 3px solid #ff0072;
+    border-radius: 2px;
     padding: 10px 20px;
     text-decoration: none;
-    font-size: 1.5em;
-    border-radius: 5px;
-    margin:30px; 
-
+    color: #ff0072;
 }
 .app{
     margin-top: 40px;
